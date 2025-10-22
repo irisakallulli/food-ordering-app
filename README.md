@@ -38,26 +38,6 @@ A modern full-stack food ordering application built with React 19 and Express.js
 4. **Checkout** - Fill out customer information and submit order
 5. **Order confirmation** - Receive confirmation of successful order
 
-## Project Structure
-
-```
-food-ordering-app/
-├── src/                    # Frontend React app
-│   ├── components/         # React components
-│   │   ├── UI/            # Reusable UI components
-│   │   ├── Cart.jsx       # Shopping cart
-│   │   ├── Checkout.jsx   # Checkout form
-│   │   └── Meals.jsx      # Meal listing
-│   ├── store/             # Context providers
-│   ├── hooks/             # Custom hooks
-│   └── util/              # Utility functions
-├── backend/               # Express.js server
-│   ├── data/              # JSON data files
-│   ├── public/            # Static assets (images)
-│   └── app.js             # Server entry point
-└── public/                # Frontend static assets
-```
-
 ## API Endpoints
 
 - `GET /meals` - Fetch all available meals
