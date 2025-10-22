@@ -2,7 +2,7 @@
 
 A modern full-stack food ordering application built with React 19 and Express.js.
 
-## 🚀 Features
+## Features
 
 - **Modern React 19** with form actions and useActionState
 - **Full-stack architecture** with Express.js backend
@@ -13,9 +13,10 @@ A modern full-stack food ordering application built with React 19 and Express.js
 - **Image serving** for meal photos
 - **Order persistence** with JSON file storage
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
+
 - **React 19** - Latest React with form actions
 - **Vite** - Fast build tool and dev server
 - **Context API** - State management
@@ -23,51 +24,13 @@ A modern full-stack food ordering application built with React 19 and Express.js
 - **CSS3** - Modern styling
 
 ### Backend
+
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
 - **File System** - Data persistence
 - **CORS** - Cross-origin requests
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/food-ordering-app.git
-   cd food-ordering-app
-   ```
-
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Install backend dependencies**
-   ```bash
-   cd backend
-   npm install
-   cd ..
-   ```
-
-4. **Start the backend server**
-   ```bash
-   cd backend
-   npm start
-   # Server runs on http://localhost:3000
-   ```
-
-5. **Start the frontend development server**
-   ```bash
-   npm run dev
-   # App runs on http://localhost:5173
-   ```
-
-## 🎯 Usage
+## Usage
 
 1. **Browse meals** - View available meals from the backend
 2. **Add to cart** - Click "Add to Cart" on any meal
@@ -75,7 +38,7 @@ A modern full-stack food ordering application built with React 19 and Express.js
 4. **Checkout** - Fill out customer information and submit order
 5. **Order confirmation** - Receive confirmation of successful order
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 food-ordering-app/
@@ -95,12 +58,12 @@ food-ordering-app/
 └── public/                # Frontend static assets
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 - `GET /meals` - Fetch all available meals
 - `POST /orders` - Submit a new order
 
-## 🎨 Key React Concepts Demonstrated
+## Key React Concepts Demonstrated
 
 - **React 19 Form Actions** - Modern form handling
 - **useActionState** - Form state management
@@ -110,21 +73,3 @@ food-ordering-app/
 - **Portals** - Modal rendering
 - **Error Boundaries** - Error handling
 - **Conditional Rendering** - Dynamic UI
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Express.js for the robust backend
-- Vite for the lightning-fast development experience
